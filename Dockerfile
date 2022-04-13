@@ -24,4 +24,4 @@ RUN apt-get update ; apt-get install -y\
         vim \
         wget 
         
-RUN git clone --recursive https://github.com/riscv/riscv-gnu-toolchain
+RUN git clone --recursive https://github.com/google/iree.git
